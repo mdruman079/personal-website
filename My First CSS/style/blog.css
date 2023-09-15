@@ -1,0 +1,28 @@
+h3{
+    background-color: rgb(174, 205, 205);
+    color: darkred;
+}
+.sec{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.blog{
+    margin: 10px;
+    border: 10px solid black;
+    box-shadow: 10px 10px 10px blue;
+}
+.spnm{
+    border: 1px solid red;
+    display: inline-block;
+    height: 100px;
+    margin: 10px;
+}
+.header{
+    height: 300px;
+    background-image: url("dimdal.jpg");
+    background-repeat: none;
+    background-position: top;
+}
+.dolor{
+    border: 1px solid red;
+}
