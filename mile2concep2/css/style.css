@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    background-color: blueviolet;
+}
+
+.nav-container {
+
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img {
+    width: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.logo-container p {
+    font-size: 30px;
+}
+
+.hive-section {
+    color: orangered;
+}
+
+.nav-items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-items-container .login-btn {
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+/* banner section */
+.banner-container {
+    margin: 50px auto 0;
+    max-width: 1400px;
+    display: flex;
+    background-color: rgb(111, 143, 116);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.banner-text {
+    width: 50%;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    background-image: linear-gradient(to bottom, blueviolet, red);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner-text p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto 20px;
+}
+
+.fa-brands {
+    font-size: 60px;
+}
+
+.banner-btn, .buy-now {
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* product section */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 1400px;
+    margin: 50px auto 0px;
+    min-height: 400px;
+}
+
+.single-product {
+
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 0 10px;
+    box-shadow: 2px 2px 4px black;
+
+}
+
+.single-product img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-icon-name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-icon {
+    font-size: 20px;
+}
+
+.product-icon-name-container span {
+    padding: 5px;
+    background-color: skyblue;
+    border-radius: 50px;
+}
+
+/* discount section */
+.discount-section {
+    background-color: #9376e0;
+    min-height: 500px;
+    padding: 0 20px;
+}
+
+.discount-section {
+    margin-top: 20px;
+}
+
+.discount-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.discount-img {
+    width: 50%;
+    position: relative;
+}
+
+.discount-img img {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+
+.discount-text {
+    width: 50%;
+}
+
+.discount-number {
+    background-color: rgb(115, 115, 52);
+    height: 90px;
+    width: 90px;
+    font-size: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    position: absolute;
+    top: 1%;
+    left: 63%;
+}
+
+/* review */
+.review-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+
+}
+
+.single-review {
+    flex-basis: 300px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.single-review img {
+    width: 60px;
+    height: 60px;
+}
+
+.top-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
